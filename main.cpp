@@ -20,7 +20,9 @@ int main()
             case '+':
                 cout << a << " + " << b << " = " << Add(a, b) << endl;
                 break;
-
+			case '-':
+                cout << a << " - " << b << " = " << Sub(a, b) << endl;
+                break;
             default:
                 cout << "Invalid operation! Try again";
                 break;
